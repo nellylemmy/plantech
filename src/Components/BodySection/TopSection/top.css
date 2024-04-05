@@ -36,4 +36,10 @@
   padding: 1rem 2rem;
   background: var(--whiteColor);
   border-radius: 5px;
+  box-shadow: 0 2px 4px var(--inputColor);
+}
+.topSection .headerSection .serachBar input {
+  border: none;
+  outline: none;
+  background: none;
 }/*# sourceMappingURL=top.css.map */
