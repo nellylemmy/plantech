@@ -3,6 +3,7 @@ import './top.css'
 import { BiSearchAlt2 } from "react-icons/bi";
 import { TbMessageCircle } from "react-icons/tb";
 import { IoNotificationsOutline } from "react-icons/io5";
+import userImage from './../../../Assets/generateduser1.png'
 
 const Top = () => {
   return (
@@ -22,7 +23,7 @@ const Top = () => {
           <TbMessageCircle className='icon'/>
           <IoNotificationsOutline className='icon'/>
           <div className="adminImage">
-            <img src="" alt="" />
+            <img src={userImage} alt="admin" />
           </div>
         </div>
       </div>
